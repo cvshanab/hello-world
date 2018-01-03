@@ -4,3 +4,28 @@
     "version": "1.0",
     "manifest_version": 2
   }
+package main
+
+import (
+    "errors"
+
+    "github.com/airbrake/gobrake"
+)
+
+
+var airbrake = gobrake.NewNotifier(<Your project ID>, "<Your project API KEY>")
+
+
+func init() {
+    airbrake.AddFilter(func(notice *gobrake.Notice) *gobrake.Notice {
+        notice.Context["environment"] = "production"
+        return notice
+    })
+}
+
+func main() {
+    defer airbrake.Close()
+    defer airbrake.NotifyOnPanic()
+
+    airbrake.Notify(errors.New("operation failed"), nil)
+}
