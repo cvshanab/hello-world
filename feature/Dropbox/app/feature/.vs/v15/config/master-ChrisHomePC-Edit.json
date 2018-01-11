@@ -1,0 +1,52 @@
+Auto detect text files and perform LF normalization
+* text=auto
+
+
+Catalyst™ Install Manager
+Installation Report
+12/29/17 21:55:51
+
+
+Hardware information
+ 
+Name Intel(R) HD Graphics 4000 
+Manufacturer Advanced Micro Devices, Inc. 
+Device ID 0x677b 
+Vendor ID 0x1002 
+Class Code 0x030000 
+Revision ID 0x00 
+Subsystem ID 0x3a76 
+Subsystem vendor ID 0x1642 
+Other hardware 
+ 
+Existing packages
+AMD Catalyst Install Manager 
+ 
+Packages for install
+AMD Catalyst Install Manager
+Final Status: Success 
+Version of Item: 8.0.916.0 
+Size: 20 Mbytes 
+AMD Problem Report Wizard
+Final Status: Success 
+Version of Item: 8.0.916.0 
+Size: 20 Mbytes 
+HDMI Audio Driver
+Final Status: Success 
+Version of Item: 9.0.0.9905 
+Size: 1 Mbytes 
+ 
+
+Other detected devices 
+Intel(R) HD Graphics 4000
+ 
+Manufacturer Advanced Micro Devices, Inc. 
+Device ID 0xaa98 
+Vendor ID 0x1002 
+Class Code 0x040300 
+Revision ID 0x00 
+Subsystem ID 0xaa98 
+Subsystem vendor ID 0x1642 
+ 
+
+Error messages 
